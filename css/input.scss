@@ -47,8 +47,10 @@ h1, h2 {
   padding-left: 0;
 }
 
-img {
-  max-width: 100%;
+@media (max-width: 1000px) {
+  .row {
+    flex-direction: row-reverse;
+  }
 }
 
 .topographic-background {
