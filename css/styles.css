@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Lab Grotesque";
-  src: url("LabGrotesque-Medium.woff2") format("woff2"),
-    url("LabGrotesque-Medium.woff") format("woff");
+  src: url("fonts/LabGrotesque-Medium.woff2") format("woff2"),
+    url("fonts/LabGrotesque-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Lab Grotesque";
-  src: url("LabGrotesque-Regular.woff2") format("woff2"),
-    url("LabGrotesque-Regular.woff") format("woff");
+  src: url("fonts/LabGrotesque-Regular.woff2") format("woff2"),
+    url("fonts/LabGrotesque-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Lab Grotesque";
-  src: url("LabGrotesque-Bold.woff2") format("woff2"),
-    url("LabGrotesque-Bold.woff") format("woff");
+  src: url("fonts/LabGrotesque-Bold.woff2") format("woff2"),
+    url("fonts/LabGrotesque-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -58,7 +58,35 @@ h2 {
   object-fit: cover;
 }
 
-@media (max-width: 1500px) {
+h1.display1 {
+  font-size: 20em;
+  z-index: -1;
+  color: whitesmoke;
+}
+
+.container.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: auto;
+  top: auto;
+  z-index: 1;
+}
+
+li {
+  margin: 10px 0px;
+}
+
+.fas {
+  color: whitesmoke;
+}
+
+.fab {
+  color: whitesmoke;
+}
+
+/* disabled while working on one screen */
+/* @media (max-width: 1500px) {
   .container {
     flex-direction: column-reverse;
   }
@@ -67,7 +95,7 @@ h2 {
     width: 100vw;
     margin: auto;
   }
-}
+} */
 
 .topographic-background {
   background-color: #000000;
